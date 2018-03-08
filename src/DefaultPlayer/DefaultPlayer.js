@@ -50,7 +50,6 @@ const DefaultPlayer = ({
                 { children }
             </video>
             <Overlay
-                onClick={onPlayPauseClick}
                 {...video} />
             { controls && controls.length && !video.error
                 ? <div className={styles.controls}>
